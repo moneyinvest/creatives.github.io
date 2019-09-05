@@ -1,0 +1,42 @@
+=header()
+    color: #222222
+    font-size: 38px
+    font-weight: 500
+    text-transform: uppercase
+    text-align: center
+    padding-top: 100px
+.blog
+    position: relative
+    .b_background
+        position: absolute
+        top: 30px
+        left: 50%
+        transform: translateX(-50%)
+    .blog_header
+        p
+            +header()
+    .second_header
+        p
+            padding-top: 50px
+            text-align: center
+            font-size: 30px
+            font-weight: 400
+    
+    .blog_content
+        +flexible()
+        flex-wrap: wrap
+        text-align: center
+        
+        &-item
+            flex-basis: 23%
+            padding: 0 10px
+            margin: 0 auto
+            .item_header
+                color: #11749e
+                font-size: 18px
+                font-weight: 500
+                line-height: 36px
+            .item_info
+                font-size: 15px
+                font-weight: 400
+                color: #222222

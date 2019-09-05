@@ -1,0 +1,162 @@
+@media (max-width: 1150px)
+    .preferences
+        &-firstitem
+            display: block
+            .firstitem_txt
+                background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("..//img//preferences_photo1.png")
+                background-repeat: no-repeat
+                background-size: cover
+                background-position: center
+                height: auto//hui
+                .fistitem_txt_inner
+                    padding: 50px 10px  
+                    text-align: center   
+            .firstitem_photo
+                display: none
+        &-seconditem
+            display: block
+            .seconditem_txt
+                height: auto
+                background: black
+                background-repeat: no-repeat
+                background-size: cover
+                background-position: center
+                .seconditemtxt_inner
+                    color: #fff
+                    padding: 50px 10px
+                    text-align: center
+            .seconditem_photo
+                display: none
+    .hero
+        .navbar_outer
+            .navbar
+                &-logo
+                    flex-basis: 10%
+                &-menu
+                    padding: 0 10px
+                    flex-basis: 75%
+                &-social
+                    flex-basis: 200px
+@media (max-width: 1000px)
+    .contact_us
+        .contact_us_inner   
+            &-contact_form
+                form
+                    .input_field
+                        display: block
+                        margin: 0 auto
+                        margin-top: 15px
+                        padding: 10px 440px 10px 10px 
+                    textarea
+                        margin-top: 30px
+                        margin-left: 10px
+                        padding-right: 370px
+
+@media (max-width: 900px)
+    .additional_preferences
+        margin-top: 50px
+        .additional_preferences_inside
+            flex-direction: column
+            &-item
+                flex-direction: column
+                padding: 20px 15px 30px 15px
+    .advantages
+        .advantages_inside
+            flex-direction: column
+            &-info
+                text-align: center
+            &-curved_strings
+                .curved_strings_first,.curved_strings_second,.curved_strings_third
+                    margin: 0 auto
+                    margin-bottom: 20px
+                    padding: 15px 0
+                    width: 80%
+            &-photo
+                display: block
+                width: 100%
+                margin: 0 auto
+                img
+                    display: block
+                    float: none
+                    margin: 0 auto
+                    width: 45%
+                    padding-left: 35px
+    .hero
+        .inside_hero
+            &-main_header_block
+                .header_block_inner 
+                    .first_header
+                        font-size: 100px
+                    .second_header
+                        font-size: 18px
+@media (max-width: 780px)
+    .hero
+        .navbar_outer
+            .navbar
+                &-logo
+                    flex-basis: 10%
+                &-menu
+                    display: none
+                    flex-basis: 100%
+                    ul
+                        padding: 0
+                        +flexible()
+                        li
+                            font-size: 20px
+                            font-weight: 400
+                            a
+                                position: relative
+                                &::after
+                                    position: absolute
+                                    content: ""
+                                    display: block
+                                    width: 100%
+                                    height: 5px
+                                    background-color: #11749e
+                                    margin-top: 10px
+                                    opacity: 0
+                                &:active
+                                    &::after
+                                        transition: .4s
+                                        opacity: 1
+                &-social
+                    display: none
+                    flex-basis: 200px
+                    margin: 0 auto
+                &-menu_btn
+                    display: block
+@media (max-width: 700px)
+    .contact_us
+        .contact_us_inner   
+            &-contact_form
+                form
+                    .input_field
+                        display: block
+                        margin: 0 auto
+                        margin-top: 15px
+                        padding: 10px 240px 10px 10px 
+                    textarea
+                        display: block
+                        margin: 0 auto
+                        margin-top: 30px
+                        margin-left: 10px
+                        padding-right: 184px
+    .hero
+        .inside_hero
+            &-main_header_block
+                .header_block_inner 
+                    .first_header
+                        font-size: 50px
+                    .second_header
+                        font-size: 14px
+    .footer
+        .footer_inner
+            justify-content: center
+            
+                   
+
+                
+    
+                
+        
+                    

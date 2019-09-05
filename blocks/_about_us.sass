@@ -1,0 +1,51 @@
+.about_us
+    background-color: #11749e 
+    padding-bottom: 40px
+    .about_us_inner
+        position: relative
+        .w_background
+            position: absolute
+            left: 50%
+            top: 100px
+            transform: translateX(-50%)
+        &-header
+            h1
+                margin: 0
+                padding-top: 170px
+                text-align: center
+                font-size: 38px
+                font-weight: 500
+                text-transform: uppercase
+                color: #ffffff
+        &-features
+            margin-top: 150px
+            +flexible()
+            flex-wrap: wrap
+            .feature_item
+                padding: 0 15px
+                flex-basis: 250px
+                margin: 0 auto
+                .circle
+                    margin: 0 auto
+                    width: 100px
+                    height: 100px
+                    position: relative
+                    border-radius: 50%
+                    background-color: #2e85aa
+                    img
+                        position: absolute
+                        left: 50%
+                        top: 50%
+                        transform: translate(-50%, -50%)
+                .feature_header
+                    text-align: center
+                    color: #ffffff
+                    font-size: 18px
+                    font-weight: 500
+                    text-transform: uppercase
+                .feature_txt
+                    text-align: justify
+                    font-size: 15px
+                    font-weight: 400
+                    color: #fff
+
